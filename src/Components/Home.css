@@ -80,12 +80,12 @@
 
 /* ====== Info Section ====== */
 
-.outer-one {
+.outer-section {
   width: 100%;
   background-color: #FAF1E1;
 }
 
-.middle {
+.outer-container {
   margin: 0 225px;
   background-color: #FAF1E1;
 }
@@ -203,7 +203,7 @@
     grid-template-columns: 1fr;
   }
 
-  .middle {
+  .outer-container {
     margin: 20px;
   }
 

@@ -7,7 +7,7 @@ import n3 from "../assets/n3.png";
 const New = () => {
   return (
     <div>
-      <div className="outer-new">
+      <div className="new-container">
         <div className="text-section">
           <h1>New</h1>
           <p>

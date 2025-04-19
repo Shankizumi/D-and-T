@@ -7,7 +7,7 @@ import P3 from "../assets/P3.png";
 const Popular = () => {
   return (
     <div>
-      <div className="outer-popular">
+      <div className="popular-container">
         <div className="text-section">
           <h1>Popular</h1>
           <p>

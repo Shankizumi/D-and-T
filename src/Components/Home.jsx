@@ -51,8 +51,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="outer-one">
-        <div class="middle">
+      <div class="outer-section">
+        <div class="outer-container">
           <div class="infosection">
             <div class="text-div">
               <h2>Supporting your professional journey</h2>

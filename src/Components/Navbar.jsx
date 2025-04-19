@@ -54,7 +54,7 @@ const Navbar = () => {
         <div className="second-nav">
           <div class="top-row">
             <div class="left-content">
-              <div class="icon"></div>
+              <div class="icon"></div> 
               <div class="text">
                 <p class="line1">
                   <strong>Drawing</strong> and <strong>Talking</strong>
