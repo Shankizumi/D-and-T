@@ -46,26 +46,28 @@ const Events = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container container-main">
       <div className="heading">
         <h1>Upcoming Calendar</h1>
       </div>
 
       {eventData.map((event, index) => (
         <div className="event-container" key={index}>
-          <div className="event-date">
-            <div className="event-day">{event.date}</div>
-            <div className="event-month">{event.month}</div>
-          </div>
-
-          <div className="event-details">
-            <h2 className="event-heading">{event.heading}</h2>
-            <div className="event-time-venue">
-              <span>{event.time}</span>
-              <span className="dot">•</span>
-              <span>{event.venue}</span>
+          <div className="event-data">
+            <div className="event-date">
+              <div className="event-day">{event.date}</div>
+              <div className="event-month">{event.month}</div>
             </div>
-            <div className="event-price">{event.price}</div>
+
+            <div className="event-details">
+              <h2 className="event-heading">{event.heading}</h2>
+              <div className="event-time-venue">
+                <span>{event.time}</span>
+                <span className="dot">•</span>
+                <span>{event.venue}</span>
+              </div>
+              <div className="event-price">{event.price}</div>
+            </div>
           </div>
 
           <div className="event-button-container">

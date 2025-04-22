@@ -4,11 +4,10 @@
   text-align: left;
   padding-bottom: 80px;
   margin-top: 80px;
-  background: url('../assets/girl.png') no-repeat bottom center / contain;
+  background: url("../assets/girl.png") no-repeat bottom center / contain;
 }
 
 .heading {
-  margin-left: 222px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   padding-bottom: 20px;
@@ -18,41 +17,44 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
-  margin: 20px 0 20px 270px;
+  width: 70%;
+  margin-bottom: 20px;
   padding: 0 20px 20px;
-  border-bottom: 2px solid #EFE4CA;
+  border-bottom: 2px solid #efe4ca;
   border-radius: 10px;
   box-sizing: border-box;
 }
 
 .container .event-container:nth-child(2) {
-  border-top: 2px solid #EFE4CA;
+  border-top: 2px solid #efe4ca;
   padding-top: 20px;
 }
 
-/* Date Section */
 .event-date {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 20px;
   width: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
 }
 
 .event-day {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 400;
   color: #333;
+  font-family: "Roboto", sans-serif;
 }
 
 .event-month {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #666;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
-/* Details Section */
 .event-details {
   flex: 1;
   display: flex;
@@ -72,7 +74,7 @@
 .event-time-venue,
 .event-price {
   font-size: 14px;
-  color: #20263E;
+  color: #20263e;
   font-family: "Roboto", sans-serif;
 }
 
@@ -87,23 +89,29 @@
   font-size: 18px;
 }
 
-/* Button Section */
 .event-button-container {
   margin-left: 20px;
+}
+.event-data {
+  display: flex;
 }
 
 .event-button {
   display: flex;
   align-items: center;
   gap: 8px;
+  height: 40px;
+  width: 90px;
   padding: 10px 16px;
-  background-color: #CAA54D;
-  color: #20263E;
+  background-color: #caa54d;
+  color: #20263e;
   border: none;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+
   transition: background-color 0.3s ease, border 0.3s ease;
 }
 
@@ -112,24 +120,22 @@
   border: 1px solid black;
 }
 
-/* Responsive Design */
-@media (max-width: 1500px) {
-  .heading {
-    margin-left: 100px;
-  }
-  .event-container {
-    margin-left: 100px;
-    width: 70%;
-  }
-}
+/* Responsive Design for tablets and Phones*/
 
 @media (max-width: 900px) {
   .heading {
-    margin-left: 50px;
     font-size: 14px;
   }
   .event-container {
-    margin-left: 20px;
-    width: 90%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .event-container {
+    flex-direction: column;
+  }
+  .event-button {
+    margin-top: 20px;
   }
 }
