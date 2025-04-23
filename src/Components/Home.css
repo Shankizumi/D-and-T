@@ -17,7 +17,6 @@
 .custom-video {
   position: absolute;
   width: 100%;
-  max-width: 1002px;
   height: 90%;
   max-width: 1050px;
   object-fit: cover;
@@ -254,7 +253,7 @@
 @media (max-width: 1290px) {
   .overlay-text {
     margin-left: -40%;
-    margin-top: 25%;
+    margin-top: 15%;
   }
 }
 
